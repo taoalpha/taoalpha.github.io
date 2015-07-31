@@ -1,0 +1,1154 @@
+/* line 6, ../sass/print.scss */
+body,html{
+  background-color: #f4f4f4;
+  padding: 0px !important;
+}
+
+/* line 9, ../sass/print.scss */
+* {
+  margin: 0px;
+  color: #666;
+  padding: 0px;
+}
+
+/* line 14, ../sass/print.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 17, ../sass/print.scss */
+li {
+  list-style: none;
+}
+
+/* line 20, ../sass/print.scss */
+#header {
+
+}
+#header {
+  background: url(../images/header.jpg) no-repeat center center;
+  width: 100%;
+  padding-top: 560px;
+}
+
+/* line 25, ../sass/print.scss */
+.container {
+  position: relative;
+}
+
+/* line 28, ../sass/print.scss */
+#nav {
+  background-color: #030303;
+  height: 60px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: 1000;
+}
+div#nav>a{
+    position: absolute;top: 20px;right: 15px;font-size:18px;color:#999;
+}
+div#nav>a:hover{
+  color:#fff;
+}
+/* line 35, ../sass/print.scss */
+#nav ul.navbar {
+  display: block;
+  width: 800px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+/* line 42, ../sass/print.scss */
+#nav ul.navbar li:nth-of-type(1) {
+  margin-left: 2.5%;
+}
+/* line 46, ../sass/print.scss */
+#nav li {
+  float: left;
+  text-align: justify;
+  width: 120px;
+  height: 80%;
+  display: block;
+  font-size: 18px;
+  font-family: Tahoma;
+  padding-top: 18px;
+  text-align: center;
+}
+/* line 57, ../sass/print.scss */
+#nav li a {
+  display: block;
+  width: 100%;
+  height: 20px;
+  border-right: 1px dashed #666;
+  color: inherit;
+}
+/* line 64, ../sass/print.scss */
+#nav li a:hover, #nav a.active {
+  color: red;
+}
+
+/* line 68, ../sass/print.scss */
+.nowp {
+  color: orange;
+}
+
+/* line 71, ../sass/print.scss */
+#aboutme, #portfolio, #journal,#mytrace, #blog, #contact {
+  width: 100%;
+  position: relative;
+}
+
+/* line 75, ../sass/print.scss */
+.mainc {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 80, ../sass/print.scss */
+div#aboutme {
+  height: 710px;
+  background: url(../images/aboutbg.jpg);
+}
+/* line 83, ../sass/print.scss */
+div#aboutme #cuteguy {
+  background: url(../images/myphoto.jpg) no-repeat -15px -28px;
+  background-size: 100%;
+  width: 500px;
+  height: 400px;
+  position: relative;
+  top: 150px;
+  float: left;
+}
+/* line 95, ../sass/print.scss */
+div#aboutme #intro {
+  width: 650px;
+  height: 100%;
+  position: relative;
+  float: left;
+}
+/* line 100, ../sass/print.scss */
+div#aboutme #intro #title1 {
+  width: 915px;
+  text-transform: uppercase;
+  font-size: 80px;
+  position: absolute;
+  left: -172px;
+  top: 60px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+/* line 109, ../sass/print.scss */
+div#aboutme #intro #descp {
+  width: 724px;
+  position: absolute;
+  font-size: 17px;
+  font-family: Tahoma;
+  top: 170px;
+  left: -48px;
+  text-align: right;
+  line-height: 24px;
+}
+/* line 119, ../sass/print.scss */
+div#aboutme #intro #skill {
+  width: 100%;
+  position: absolute;
+  top: 260px;
+}
+/* line 123, ../sass/print.scss */
+div#aboutme #intro #skill li {
+  list-style: initial;
+  margin-top: 8px;
+}
+/* line 129, ../sass/print.scss */
+div#aboutme #intro #skill .sk {
+  width: 50%;
+  float: left;
+  font-size: 16px;
+  font-family: Tahoma;
+}
+/* line 135, ../sass/print.scss */
+div#aboutme #intro #skill .sk h4 {
+  font-size: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: -8%;
+  margin-bottom: 2%;
+}
+div#aboutme #intro #skill .sk h2 {
+  font-size: 24px;
+}
+
+/* line 144, ../sass/print.scss */
+#portfolio {
+  position: relative;
+  height: 760px;
+  background: url(../images/portbg.jpg);
+}
+/* line 148, ../sass/print.scss */
+#portfolio #tipsword1 {
+  display: none;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  font-size: 7vw;
+  color: wheat;
+  font-family: Tahoma;
+  width: 55%;
+  padding: 1%;
+  background-color: orange;
+  z-index: 800;
+  border-radius: 8px;
+}
+/* line 162, ../sass/print.scss */
+#portfolio #allports {
+  width: 100%;
+  padding-top: 1.2%;
+}
+/* line 166, ../sass/print.scss */
+#portfolio li:nth-child(-n+9) {
+  display: block;
+}
+/* line 169, ../sass/print.scss */
+#portfolio li {
+  display: none;
+  float: left;
+  position: relative;
+  width: 390px;
+  height: 241px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  opacity: 0.5;
+  overflow: hidden;
+  z-index: 500;
+}
+/* line 182, ../sass/print.scss */
+#portfolio li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+/* line 186, ../sass/print.scss */
+#portfolio li a span {
+  display: block;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: -50px;
+  background: black;
+  opacity: 0.8;
+  color: white;
+  text-align: center;
+  font-family: Californian FB italic,serif;
+  font-size: 25px;
+  line-height: 50px;
+}
+/* line 201, ../sass/print.scss */
+#portfolio li:hover {
+  opacity: 1;
+}
+#portfolio li:hover span{
+    bottom:0px;
+    transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+}
+/* line 204, ../sass/print.scss */
+#portfolio #pre, #portfolio #next {
+  width: 7%;
+  height: 100%;
+  position: absolute;
+  cursor: pointer;
+}
+/* line 210, ../sass/print.scss */
+#portfolio #pre {
+  background: url(../images/pre.png) no-repeat center;
+  top: 0px;
+  left: 0px;
+  float: left;
+  clear: left;
+}
+/* line 217, ../sass/print.scss */
+#portfolio #pre:hover {
+  background: url(../images/preh.png) no-repeat center;
+}
+/* line 220, ../sass/print.scss */
+#portfolio #next {
+  background: url(../images/next.png) no-repeat center;
+  top: 0px;
+  right: 0px;
+  float: right;
+}
+/* line 226, ../sass/print.scss */
+#portfolio #next:hover {
+  background: url(../images/nexth.png) no-repeat center;
+}
+
+/* line 230, ../sass/print.scss */
+#blog {
+  height: 300px;
+  background: url(../images/aboutbg.jpg);
+}
+/* line 233, ../sass/print.scss */
+#blog .news {
+  width:48%;
+  max-width: 520px;
+  height: 50%;
+}
+/* line 237, ../sass/print.scss */
+#blog .latest {
+  overflow: scroll;
+}
+/* line 239, ../sass/print.scss */
+#blog .latest iframe {
+  width: 100% !important;
+  margin-top: 10px;
+}
+/* line 244, ../sass/print.scss */
+#blog .news h4 {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 30px;
+  padding-top: 12px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+/* line 251, ../sass/print.scss */
+#blog .blognews {
+  width: 100%;
+  height: 250px;
+  background: #333;
+  border-radius: 6px;
+}
+/* line 257, ../sass/print.scss */
+#blog .blognews h5, #blog .blognews a {
+  font: normal normal normal 12px/16px "Helvetica Neue",Arial,sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  color: #cfcfcf;
+  height: 12px;
+  overflow: hidden;
+  padding: 15px 0 15px 8px;
+}
+/* line 266, ../sass/print.scss */
+#blog .blognews h5 {
+  font-weight: bold;
+}
+/* line 269, ../sass/print.scss */
+#blog .blognews .singleline {
+  width: 100%;
+  height: 1px;
+  background-color: #444;
+  clear: both;
+}
+/* line 275, ../sass/print.scss */
+#blog .blognews .blogc {
+  width: 100%;
+}
+/* line 279, ../sass/print.scss */
+#blog .blognews .blogc .imgbox img {
+  padding: 10px 0 10px 10px;
+  float: left;
+  width:60px;
+}
+/* line 284, ../sass/print.scss */
+#blog .blognews .blogc .alltext {
+  width: 85%;
+  padding-top: 6px;
+  float: left;
+  height: 60px;
+  overflow: hidden;
+}
+/* line 290, ../sass/print.scss */
+#blog .blognews .blogc .alltext a:hover {
+  color: #FFB0B0;
+  text-decoration: underline;
+}
+/* line 294, ../sass/print.scss */
+#blog .blognews .blogc .alltext .blogtitle {
+  font-size: 14px;
+  float: left;
+  line-height: 14px;
+  padding: 5px;
+  width: 70%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* line 300, ../sass/print.scss */
+#blog .blognews .blogc .alltext .blogdate {
+  float: right;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 5px;
+  color: #a0a0a0;
+}
+/* line 307, ../sass/print.scss */
+#blog .blognews .blogc .alltext a.blogsummary, #blog .blognews .blogc .alltext a.blogsummary p {
+  clear: both;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 5px;
+}
+/* line 313, ../sass/print.scss */
+#blog .blognews .blogc .alltext a.blogsummary p:after {
+  content: '...';
+}
+
+/* line 320, ../sass/print.scss */
+#journal,#mytrace{
+  height: 560px;
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+}
+#mytrace{
+    display:none;
+}
+/* line 376, ../sass/print.scss */
+#contact {
+  height: 500px;
+  background: url(../images/contactbg.jpg);
+}
+/* line 379, ../sass/print.scss */
+#contact #address {
+  width: 40%;
+  float: left;
+}
+/* line 382, ../sass/print.scss */
+#contact #address a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* line 387, ../sass/print.scss */
+#contact #address #map {
+  background: url(../images/map.jpg) no-repeat -120px -60px;
+  position: relative;
+  top: 52px;
+  width: 90%;
+  height: 300px;
+  border: 1px solid;
+}
+/* line 395, ../sass/print.scss */
+#contact #address #other {
+  width: 100%;
+  height: 70px;
+  position: relative;
+  margin-top: 70px;
+}
+/* line 400, ../sass/print.scss */
+#contact #address #other h4 {
+  width: 100%;
+  height: 20%;
+  margin-bottom: 20px;
+}
+/* line 404, ../sass/print.scss */
+#contact #address #other h4 img {
+  width: 1em;
+  float: left;
+}
+/* line 408, ../sass/print.scss */
+#contact #address #other h4 p {
+  float: left;
+  display: block;
+  padding: 3px 0 0 3px;
+}
+/* line 416, ../sass/print.scss */
+#contact #mailme {
+  width: 60%;
+  float: left;
+  text-align: center;
+  position: relative;
+  top: 52px;
+  left: 3%;
+}
+/* line 423, ../sass/print.scss */
+#contact #mailme h4 {
+  text-transform: uppercase;
+  font-size: 2vw;
+  font-family: Tahoma;
+  font-weight: 500;
+}
+/* line 429, ../sass/print.scss */
+#contact #mailme label {
+  display: none;
+}
+/* line 432, ../sass/print.scss */
+#contact #mailme fieldset {
+  border: 0;
+}
+/* line 435, ../sass/print.scss */
+#contact #mailme input {
+  width: 80%;
+  height: 40px;
+  margin: 10px;
+  border: 0;
+  padding-left: 10px;
+  font-family: Tahoma;
+}
+/* line 443, ../sass/print.scss */
+#contact #mailme input#message {
+  height: 100px;
+}
+/* line 446, ../sass/print.scss */
+#contact #mailme input#submit-btn{
+  cursor: pointer;
+  border: 0;
+  width: 82%;
+  color: white;
+  height: 50px;
+  font-size: 1.5vw;
+  font-family: Tahoma;
+  text-transform: uppercase;
+  background: #505050;
+}
+
+/* line 459, ../sass/print.scss */
+#footer {
+  width: 100%;
+  position: relative;
+  top: 100%;
+  background: url(../images/footerbg.jpg);
+  height: 80px;
+}
+/* line 465, ../sass/print.scss */
+#footer .footernav {
+  height: 100%;
+  overflow: hidden;
+}
+/* line 469, ../sass/print.scss */
+#footer h4 {
+  font-family: Tahoma;
+  font-size: 27px;
+  font-weight: 400;
+  width: 230px;
+  height: 28px;
+  position: relative;
+  float: left;
+  left: 265px;
+  top: 24px;
+  text-align: right;
+  color: #444;
+}
+
+/* line 483, ../sass/print.scss */
+#footer ul {
+  width: 700px;
+  position: relative;
+  left: 280px;
+  top: 10px;
+}
+
+/* line 489, ../sass/print.scss */
+#footer ul li {
+  float: left;
+  width: 75px;
+  height: 65px;
+  position: relative;
+  margin: 0px -10px 0 0;
+}
+
+/* line 496, ../sass/print.scss */
+#footer ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 501, ../sass/print.scss */
+.github {
+  background: url(../images/githubn.png) no-repeat;
+}
+
+/* line 504, ../sass/print.scss */
+.facebook {
+  background: url(../images/facebookn.png) no-repeat;
+}
+
+/* line 507, ../sass/print.scss */
+.twitter {
+  background: url(../images/twittern.png) no-repeat;
+}
+
+/* line 510, ../sass/print.scss */
+.googleplus {
+  background: url(../images/googleplusn.png) no-repeat;
+}
+
+/* line 513, ../sass/print.scss */
+.myresume {
+  background: url(../images/myresumen.png) no-repeat;
+}
+
+/* line 516, ../sass/print.scss */
+.linkedin {
+  background: url(../images/linkedinn.png) no-repeat;
+}
+
+/* line 519, ../sass/print.scss */
+.github, .facebook, .twitter, .myresume, .googleplus, .linkedin {
+  background-size: 75%;
+}
+
+/* line 523, ../sass/print.scss */
+.singlemain {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 528, ../sass/print.scss */
+#projectname {
+  display: none;
+  text-align:center;
+  position: fixed;
+  background-color: #666;
+  top: 0px;
+  left: 42.5%;
+  padding: 1%;
+  width: 15%;
+  z-index: 600;
+}
+/* line 537, ../sass/print.scss */
+#projectname p {
+  display: block;
+  font-size: 2vw;
+  color: orange;
+  font-family:Tahoma;
+}
+
+/* line 543, ../sass/print.scss */
+#mom-1, #mom-2, #mom-3, #mom-4, #mom-5 {
+  padding-bottom: 42%;
+}
+@media only screen and (min-width: 1920px){
+    #header{
+        background-size:100%;
+    }
+}
+@media only screen and (max-width: 1350px) and (min-width: 768px) {
+  /* line 547, ../sass/print.scss */
+  #header {
+    background-size: 145%;
+    padding-top: 42%;
+    background-position-x: 50%;
+  }
+
+  /* line 552, ../sass/print.scss */
+  .mainc {
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 557, ../sass/print.scss */
+  div#aboutme {
+    height: 100%;
+    padding-bottom: 45%;
+  }
+  /* line 560, ../sass/print.scss */
+  div#aboutme #cuteguy, div#aboutme #cuteguy:hover {
+    width: 47%;
+    height: 0;
+    padding-bottom: 40%;
+    background-position: -15px -18px;
+    background-size: 100%;
+    top: 0;
+    margin-top: 6%;
+  }
+  /* line 569, ../sass/print.scss */
+  div#aboutme #intro {
+    width: 53%;
+  }
+  /* line 571, ../sass/print.scss */
+  div#aboutme #intro #title1 {
+    width: 130%;
+    font-size: 5.3vw;
+    left: -30%;
+    top: 10%;
+    padding-top: 4%;
+  }
+  /* line 578, ../sass/print.scss */
+  div#aboutme #intro #descp {
+    width: 114%;
+    left: -18%;
+    margin-top: 20%;
+    top: 0;
+    font-size: 1.4vw;
+    line-height: 1.6vw;
+  }
+  /* line 586, ../sass/print.scss */
+  div#aboutme #intro #skill {
+    margin-top: 38%;
+    top: 0;
+    width: 95%;
+  }
+  /* line 590, ../sass/print.scss */
+  div#aboutme #intro #skill .sk {
+    font-size: 1.2vw;
+  }
+  /* line 592, ../sass/print.scss */
+  div#aboutme #intro #skill .sk h4{
+    font-size: 2vw;
+  }
+  div#aboutme #intro #skill .sk h2 {
+    font-size: 1.3vw;
+  }
+  /* line 595, ../sass/print.scss */
+  div#aboutme #intro #skill .sk li {
+    margin-top: 5px;
+  }
+
+  /* line 602, ../sass/print.scss */
+  div#portfolio {
+    height: 0;
+    padding-bottom: 52%;
+  }
+  /* line 605, ../sass/print.scss */
+  div#portfolio img {
+    width: 100%;
+  }
+  /* line 608, ../sass/print.scss */
+  div#portfolio ul {
+    padding-top: 1%;
+  }
+  /* line 611, ../sass/print.scss */
+  div#portfolio li {
+    width: 32%;
+    height: 0;
+    padding-bottom: 19%;
+  }
+
+  /* line 619, ../sass/print.scss */
+  div#blog .blognews .blogc .alltext {
+    width: 82%;
+  }
+  /* line 622, ../sass/print.scss */
+  div#blog .news h4 {
+    font-size: 3vw;
+  }
+
+  /* line 655, ../sass/print.scss */
+  div#contact #mailme h4 {
+    font-size: 3vw;
+  }
+
+  /* line 660, ../sass/print.scss */
+  div#footer h4 {
+    left: 0;
+    margin-left: 15%;
+  }
+  /* line 664, ../sass/print.scss */
+  div#footer ul {
+    width: 143%;
+    left: 0;
+    margin-left: 20%;
+    max-width: 1200px;
+  }
+  /* line 670, ../sass/print.scss */
+  div#footer li {
+    width: 7%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 676, ../sass/print.scss */
+  #header {
+    background-size: 145%;
+    padding-top: 42%;
+    background-position-x: 50%;
+  }
+
+  /* line 681, ../sass/print.scss */
+  .mainc {
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 686, ../sass/print.scss */
+  div#nav {
+    height: 50px;
+  }
+  /* line 688, ../sass/print.scss */
+  div#nav ul.navbar {
+    width: 80%;
+  }
+  /* line 691, ../sass/print.scss */
+  div#nav ul.navbar li:nth-of-type(1) {
+    margin-left: 3%;
+  }
+  div#nav>a{
+    display:none;
+  }
+  /* line 694, ../sass/print.scss */
+  div#nav li {
+    width: 15%;
+    padding-top: 13px;
+    font-size: 15px;
+  }
+
+  /* line 700, ../sass/print.scss */
+  div#aboutme {
+    height: 0;
+    padding-bottom: 78%;
+  }
+  /* line 703, ../sass/print.scss */
+  div#aboutme #cuteguy {
+    display: none;
+  }
+  /* line 706, ../sass/print.scss */
+  div#aboutme #intro {
+    width: 100%;
+  }
+  /* line 708, ../sass/print.scss */
+  div#aboutme #intro #title1 {
+    font-size: 6vw;
+    left: 0;
+    top: 0;
+    padding-top: 10px;
+    padding-left: 10%;
+    position: relative;
+    width: 92%;
+  }
+  /* line 717, ../sass/print.scss */
+  div#aboutme #intro #descp {
+    position: relative;
+    text-align: center;
+    top: 0;
+    left: 0;
+    padding-top: 3%;
+    font-size: 2vw;
+    width: 100%;
+  }
+  /* line 726, ../sass/print.scss */
+  div#aboutme #intro #skill {
+    top: 0;
+    padding-top: 35%;
+  }
+  /* line 729, ../sass/print.scss */
+  div#aboutme #intro #skill div.sk:nth-of-type(1) {
+    margin-left: 18%;
+  }
+  /* line 732, ../sass/print.scss */
+  div#aboutme #intro #skill div.sk {
+    font-size: 2vw;
+    width: 40%;
+  }
+  /* line 735, ../sass/print.scss */
+  div#aboutme #intro #skill div.sk h4 {
+    font-size: 3vw;
+    margin-left: -20px;
+  }
+  div#aboutme #intro #skill div.sk h2 {
+    font-size:2vw;
+  }
+  /* line 740, ../sass/print.scss */
+  div#aboutme #intro #skill li {
+    margin-top: 3%;
+  }
+
+  /* line 746, ../sass/print.scss */
+  div#portfolio {
+    height: 0;
+    padding-bottom: 63%;
+  }
+  /* line 749, ../sass/print.scss */
+  div#portfolio img {
+    width: 100%;
+  }
+  /* line 752, ../sass/print.scss */
+  div#portfolio ul#allports {
+    padding-top: 7%;
+  }
+  /* line 754, ../sass/print.scss */
+  div#portfolio ul#allports li {
+    display: none;
+    width: 48%;
+    height: 0;
+    padding-bottom: 29.5%;
+  }
+  /* line 760, ../sass/print.scss */
+  div#portfolio ul#allports li:nth-child(-n+4) {
+    display: block;
+  }
+
+  /* line 766, ../sass/print.scss */
+  div#blog {
+    height: 580px;
+  }
+  div#blog .news{
+    float:none !important;
+    width:100%;
+  }
+  /* line 768, ../sass/print.scss */
+  div#blog .news h4 {
+    font-size: 3vw;
+  }
+  /* line 771, ../sass/print.scss */
+  div#blog .blognews .blogc .alltext {
+    width: 78%;
+  }
+  /* line 773, ../sass/print.scss */
+  div#blog .blognews .blogc .alltext .blogtitle .blogdate {
+    font-size: 13px;
+  }
+
+  /* line 778, ../sass/print.scss */
+  div#journal,div#mytrace {
+  }
+  /* line 806, ../sass/print.scss */
+  div#contact {
+    height: 0;
+    padding-bottom: 63%;
+  }
+  /* line 810, ../sass/print.scss */
+  div#contact #address #map {
+    height: 0;
+    padding-bottom: 100%;
+    background-position: -125px -15px;
+    background-size: 200%;
+    top: 0;
+    margin-top: 15%;
+  }
+  /* line 818, ../sass/print.scss */
+  div#contact #address #other {
+    margin-top: 7%;
+  }
+  /* line 820, ../sass/print.scss */
+  div#contact #address #other h4 {
+    font-size: 2vw;
+  }
+  /* line 825, ../sass/print.scss */
+  div#contact #mailme {
+    top: 0;
+    margin-top: 4%;
+  }
+  /* line 828, ../sass/print.scss */
+  div#contact #mailme h4 {
+    font-size: 3vw;
+  }
+  /* line 831, ../sass/print.scss */
+  div#contact #mailme input {
+    height: 30px;
+    margin: 2%;
+  }
+  /* line 835, ../sass/print.scss */
+  div#contact #mailme input#submit-btn{
+    font-size: 2.5vw;
+  }
+
+  /* line 840, ../sass/print.scss */
+  div#footer {
+    height: 60px;
+  }
+  /* line 842, ../sass/print.scss */
+  div#footer h4 {
+    width: 36%;
+    left: 0;
+    top: 0;
+    margin-top: 16px;
+    font-size: 21px;
+  }
+  /* line 849, ../sass/print.scss */
+  div#footer ul {
+    width: 556px;
+    left: 2%;
+    top: 10px;
+  }
+  /* line 853, ../sass/print.scss */
+  div#footer ul li {
+    width: 56px;
+    height: 46px;
+  }
+}
+@media only screen and (max-width: 568px) {
+  /* line 862, ../sass/print.scss */
+  div#collapse #nav {
+    background: url(../images/navbar.jpg) no-repeat;
+    background-size: 100%;
+    overflow: initial;
+    height: 0px;
+    padding-bottom: 15%;
+  }
+  /* line 868, ../sass/print.scss */
+  div#collapse #nav #showbar {
+    height: 100%;
+    width: 18%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  /* line 875, ../sass/print.scss */
+  div#collapse #nav #showbar:hover ul, div#collapse #nav ul:hover {
+    display: block;
+  }
+  /* line 879, ../sass/print.scss */
+  div#collapse ul.navbar {
+    display: none;
+    width: 106%;
+    position: absolute;
+    height: 240%;
+    background-color: black;
+    right: 0px;
+    margin-top: 72%;
+  }
+  /* line 887, ../sass/print.scss */
+  div#collapse ul.navbar li {
+    float: none;
+    height: 5%;
+    padding: 15% 0px 4% 17%;
+    font-size: 75%;
+  }
+  /* line 892, ../sass/print.scss */
+  div#collapse ul.navbar li a {
+    border: none;
+  }
+
+  /* line 898, ../sass/print.scss */
+  div#aboutme {
+    padding-bottom: 0px;
+    height: 200px;
+  }
+  /* line 902, ../sass/print.scss */
+  div#aboutme #intro #title1 {
+    font-size: 146%;
+    padding-left: 5%;
+  }
+  /* line 907, ../sass/print.scss */
+  div#aboutme #intro #descp {
+    font-size: 11px;
+  }
+  /* line 910, ../sass/print.scss */
+  div#aboutme #intro #skill {
+    display: none;
+  }
+
+  /* line 917, ../sass/print.scss */
+  div#portfolio #pre, div#portfolio #next {
+    background-size: 100%;
+  }
+  /* line 920, ../sass/print.scss */
+  div#portfolio #pre:hover, div#portfolio #next:hover {
+    background-size: 100%;
+  }
+  /* line 924, ../sass/print.scss */
+  div#portfolio ul#allports li {
+    width: 90%;
+    padding-bottom: 60%;
+    padding-left: 2%;
+  }
+  /* line 929, ../sass/print.scss */
+  div#portfolio ul#allports li:nth-child(-n+4) {
+    display: none;
+  }
+  /* line 932, ../sass/print.scss */
+  div#portfolio ul#allports li:nth-child(-n+1) {
+    display: block;
+  }
+
+  /* line 937, ../sass/print.scss */
+  div#blog {
+    height: 585px;
+  }
+  /* line 940, ../sass/print.scss */
+  div#blog .news h4 {
+    font-size: 13px;
+  }
+  /* line 944, ../sass/print.scss */
+  div#blog .blognews {
+    height: 218px;
+  }
+  /* line 947, ../sass/print.scss */
+  div#blog .blognews .blogc .imgbox {
+    width: 12%;
+  }
+  /* line 949, ../sass/print.scss */
+  div#blog .blognews .blogc .imgbox img {
+    width: 100%;
+    padding-top: 8px;
+  }
+  /* line 954, ../sass/print.scss */
+  div#blog .blognews .blogc .alltext {
+    width: 80%;
+    height: 80px;
+    overflow: inherit;
+  }
+  /* line 958, ../sass/print.scss */
+  div#blog .blognews .blogc .alltext .blogtitle {
+    width: 125px;
+    font-size: 12px;
+    height: 23px;
+  }
+  /* line 963, ../sass/print.scss */
+  div#blog .blognews .blogc .alltext .blogdate {
+    width: 34px;
+    height: 10px;
+    overflow: hidden;
+    font-size: 12px;
+  }
+  /* line 969, ../sass/print.scss */
+  div#blog .blognews .blogc .alltext a.blogsummary {
+    width: 120%;
+    display: block;
+    margin-left: -16%;
+    height: 28px;
+    overflow: hidden;
+  }
+  /* line 975, ../sass/print.scss */
+  div#blog .blognews .blogc .alltext a.blogsummary p {
+    padding: 0px;
+  }
+
+  /* line 983, ../sass/print.scss */
+  div#journal {
+    background: #0C0C0C;
+    height:300px;
+    display:none;
+  }
+  /* line 986, ../sass/print.scss */
+  #mytrace {
+    width: 100%;
+    height:300px;
+    left: 0%;
+    display: block;
+  }
+
+  /* line 1015, ../sass/print.scss */
+  div#contact {
+    padding-bottom: 83%;
+  }
+  /* line 1017, ../sass/print.scss */
+  div#contact #address {
+    display: none;
+  }
+  /* line 1020, ../sass/print.scss */
+  div#contact #mailme {
+    width: 100%;
+    top: 10px;
+  }
+  /* line 1023, ../sass/print.scss */
+  div#contact #mailme h4 {
+    font-size: 20px;
+  }
+  /* line 1026, ../sass/print.scss */
+  div#contact #mailme input#submit-btn{
+    font-size: 16px;
+  }
+  /* line 1029, ../sass/print.scss */
+  div#contact #mailme div.form-field:nth-of-type(1), div#contact #mailme div.form-field:nth-of-type(3) {
+    display: none;
+  }
+
+  /* line 1035, ../sass/print.scss */
+  div#footer h4 {
+    display: none;
+  }
+  /* line 1038, ../sass/print.scss */
+  div#footer ul {
+    width: 278px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0px;
+  }
+}

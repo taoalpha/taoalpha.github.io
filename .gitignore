@@ -1,4 +1,5 @@
 # exclude everything except directory foo/bar
 _site/
+singlepage/
 .sass-cache/
 .jekyll-metadata
