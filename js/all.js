@@ -132,6 +132,7 @@ $(document).ready(function(){
                 data:[
                 {"name":"China"},
                 {"name":"New Zealand"},
+                {"name":"United States of America"},
                 {"name":"Australia"}
                 ]
             },
@@ -147,7 +148,6 @@ $(document).ready(function(){
                     }
                 },
                 data:[
-                {name : 'United States of America'},
                 {name : 'Sweden'},
                 {name : 'Poland'},
                 {name : 'Ireland'},
