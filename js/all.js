@@ -79,7 +79,7 @@ $(document).ready(function(){
     var option = {
         backgroundColor:'#EDE0CC',
         title : {
-            text: "Gary's Footprint!",
+            text: "Tao's Footprint!",
             subtext: 'Record where I have been to and where I have not. One day, I will travel the world!',
                         // sublink : 'http://esa.un.org/wpp/Excel-Data/population.htm',
                         x:'center',
@@ -182,7 +182,7 @@ $(document).ready(function(){
     var option2 = {
         backgroundColor:'#EDE0CC',
         title : {
-            text: "Gary's Footprint in China!",
+            text: "Tao's Footprint in China!",
             subtext: 'One day, I will travel the world!',
                         // sublink : 'http://esa.un.org/wpp/Excel-Data/population.htm',
                         x:'center',

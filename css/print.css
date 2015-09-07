@@ -624,7 +624,7 @@ div#aboutme #intro #skill .sk h2 {
 }
 @media only screen and (min-width: 1920px){
     #header{
-        background-size:100%;
+        background-size:101%;
     }
 }
 @media only screen and (max-width: 1350px) and (min-width: 768px) {
