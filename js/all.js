@@ -320,4 +320,44 @@ $(document).ready(function(){
       })
       $('div.blognews').html(sumtext);
     })
+    
+    // form submit
+    $('form#request-form').submit(function(e){
+      e.preventDefault();
+      var msg = {};
+      msg.sender_name = $('input#id_sendername').val();
+      msg.sender_mail = $('input#id_sender').val();
+      msg.subject = $('input#id_subject').val();
+      msg.content = $('input#id_message').val();
+      sendMail(msg);
+    })
+
+
 });
+
+// function for sending emails
+function sendMail(msg){
+  $.ajax({
+    type: "POST",
+    url: "https://mandrillapp.com/api/1.0/messages/send.json",
+    data: {
+      'key': 'JMwEKDDW1NuLbxUrK4ELhQ',
+      'message': {
+        'from_email': msg.sender_mail,
+        'from_name': msg.sender_name,
+        'to': [
+            {
+              'email': 'iamzhoutao92@gmail.com',
+              'name': 'TaoAlpha',
+              'type': 'to',
+            }
+        ],
+        'autotext': 'true',
+        'subject': msg.subject,
+        'html': msg.content
+      }
+    }
+   }).done(function(response) {
+     $('p#mailstatus').html("Sent!").fadeIn(1000).fadeOut(2000);
+   });
+}
