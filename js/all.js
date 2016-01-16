@@ -313,7 +313,7 @@ $(document).ready(function(){
 
     // Load latest blog
     $.getJSON('http://taoalpha.me/blog/api/latest.json',function(data){
-      var template = '<div class="singleline"></div><div class="blogc"><div class="imgbox"><img src="images/blogicon.png" alt="blogicon"></div><div class="alltext"><a href="http://taoalpha.me/blog__B_LINK__" class="blogtitle">__B_TITLE__</a><h6 class="blogdate">__B_DATE__</h6><a href="http://taoalpha.me/blog__B_LINK__" class="blogsummary"><p>__B_SUMMARY__</p></a></div></div>'
+      var template = '<div class="singleline"></div><div class="blogc"><div class="imgbox"><img src="images/blogicon.png" alt="blogicon"></div><div class="alltext"><a href="__B_LINK__" class="blogtitle">__B_TITLE__</a><h6 class="blogdate">__B_DATE__</h6><a href="http://taoalpha.me/blog__B_LINK__" class="blogsummary"><p>__B_SUMMARY__</p></a></div></div>'
       var sumtext = '<h5><a href="http://taoalpha.me/blog">Tao\'s blog</a></h5>'
       $.each(data,function(i,v){
         sumtext += template.replace(/__B_LINK__/g,v.permalink).replace(/__B_TITLE__/g,v.title).replace(/__B_DATE__/g,v.date.split(' ')[0]).replace(/__B_SUMMARY__/g,v.summary)
