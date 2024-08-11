@@ -1,0 +1,30 @@
+# .github/workflows/publish.yml
+name: SSG publish
+
+on:
+  push:
+    branches:
+      - next-gen
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build and Push
+    steps:
+      - name: git-checkout
+        uses: actions/checkout@v4
+
+      - name: Push
+        run: |
+          npm install -g pnpm && pnpm install && pnpm build
+          git fetch
+          git config --global user.name 'Github Actions'
+          git config --global user.email 'iamzhoutao92@gmail.com'
+          mv out /tmp
+          git checkout master
+          rm -rf ./*
+          mv /tmp/out/* ./
+          git add --all
+          git commit -m "Update"
+          git push
+          
